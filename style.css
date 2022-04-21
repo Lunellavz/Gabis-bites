@@ -1,6 +1,27 @@
 h1 {
     color: rgb(127, 133, 255);
 }
+
+a {
+    color: rgb(127, 133, 255);
+}
+
 body {
-    background-color: aqua;
+    
+        background-color: rgb(49, 50, 105) ;
+}
+
+nav {
+    color: rgb(127, 133, 255)
+}
+
+img {
+
+            width: 300px;
+        }
+    
+
+
+p {
+    color: rgb(127, 133, 255);
 }

@@ -6,41 +6,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabi's Bites</title>
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="javascript" src="app.js" />
+
 </head>
 
 
 <body>
+    <script>
+
+        let myname = prompt("What is your name?");
+        document.write("<p>Nice to meet you," + myname + "</p>");
+        let foodq = prompt("You love food?");
+
+        if (foodq === "Yes") {
+
+            document.write("<p> You've come to the right place!</p>");
+
+        }
+        else {
+
+            document.write("<p>I hope this helps!</p>" );
+        }
+    </script>
     <header>
+
+        <img src="FOOD.jpg" />
+
 
         <h1>Gabi's Bites</h1>
         <nav>
-            <ol>
+            <ul>
                 <li>
-                    <a href="#">
+                    <a href="#menuimg">Haymaker
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#fobp">FOB
 
                     </a>
                 </li>
                 <li>
-                 <a href="">
+                    <a href="#takoy">Takoyaki
 
-                 </a> 
+                    </a>
                 </li>
-            </ol>
+                <li>
+                    <a href="#nanag">Nanas Green Tea
+
+                    </a>
+
+                </li>
+            </ul>
         </nav>
     </header>
-    <main>
+    <script>
+        let foodq = prompt("You love food?");
 
-        <ol>
+        if (foodq === "Yes") {
 
-        </ol>
+            document.write("You've come to the right place!");
+
+        }
+        else {
+
+            document.write("I hope this helps!");
+        }
+    </script>
+    <img id="menuimg" src="hay1.jpg" alt="menu" />
+    <img src="hay.jpg" />
+
+    <p>
+        Haymaker! A wonderful delicious resturant located in West Seattle.
+        I had a chance to take advantage of restaurant week and try
+        their 3 course meal. Pictured above was a cocktail with gin
+        along with their beautiful pork chop entree. Unfortunatley
+        I ate the dessert too fast before taking a picture!
+    </p>
+
+    <img id="fobp" src="fob.jpg" />
+
+    <p>
+        What your looking at is FOB poke in Capitol Hill, conveniently located
+        across the street from a community college. Fresh tasting fish, with
+        eye catching watermelon radish! Friendly staff and a filling meal!
+    </p>
+
+    <img id="takoy" src="tako.jpg" />
+
+    <p>
+        Look at those balls! Here is takoyaki, a wonderful
+        appetizer from Kizuki Ramen and right around the corner from
+        Haymaker! This dish in particular, dances for you! Definantly
+        a must try! Inside this battered ball is filled with scallions,
+        octopus and a few other ingredients that are cooked in a
+        special skillet to get that circular shape. It is topped with
+        a sweet and savory sauce that is to die for!
+    </p>
+
+    <img id="nanag" src="nana.jpg" />
+
+    <p>
+        To wrap up all these savory dishes is one of my favorite
+        dessert spots called Nanas Green Tea located near south
+        lake union. Here is a matcha vanilla swirl soft serve
+        with a slice of matcha cake. This is an asian inspired cafe
+        where you can get your matcha fix! A perfect sweetness to
+        finish off your savory meals.
+    </p>
+
     </main>
     <footer>
-
+        <p>
+            Contact me!
+            555-5555
+        </p>
     </footer>
 </body>
 
