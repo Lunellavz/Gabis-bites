@@ -24,3 +24,15 @@ document.write("<br />")
 bites()
 
 
+let meals = prompt ("How many meals a day should you eat?");
+
+while (meals <= 3) {
+
+    alert("Enter a number between 1-10");
+    
+    meals = prompt ("How many meals a day should you eat?");
+}
+
+for (let i=0; i<=3; i++) {
+    document.write('<img src="FOOD.jpg" />');
+}

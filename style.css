@@ -16,6 +16,7 @@ nav {
 }
 
 img {
+            layout: float;
 
             width: 300px;
         }
